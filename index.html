@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>City Explorer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1>City Explorer</h1>
+
+        <nav class="menu">
+            <a href="#destinatii">Destinații</a>
+            <a href="#planifica">Planifică</a>
+            <a href="#recomandari">Recomandări</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- DESTINATII -->
+
+        <section id="destinatii">
+
+            <h2>Destinații</h2>
+
+            <div class="cards">
+
+                <article class="card featured">
+                    <h3>Paris</h3>
+                    <p><strong>Țara:</strong> Franța</p>
+                    <p>
+                        Paris este cunoscut pentru arhitectură, muzee,
+                        gastronomie și obiective precum Turnul Eiffel și
+                        Muzeul Luvru.
+                    </p>
+                    <p><strong>Durată recomandată:</strong> 4 zile</p>
+                </article>
+
+
+                <article class="card">
+                    <h3>Lisabona</h3>
+                    <p><strong>Țara:</strong> Portugalia</p>
+                    <p>
+                        Un oraș construit pe coline, cunoscut pentru
+                        tramvaiele sale, cartierele istorice și priveliștile
+                        asupra Oceanului Atlantic.
+                    </p>
+                    <p><strong>Durată recomandată:</strong> 3 zile</p>
+                </article>
+
+
+                <article class="card">
+                    <h3>Roma</h3>
+                    <p><strong>Țara:</strong> Italia</p>
+                    <p>
+                        Roma combină istoria antică cu viața modernă și
+                        oferă obiective precum Colosseumul, Forumul Roman
+                        și Vaticanul.
+                    </p>
+                    <p><strong>Durată recomandată:</strong> 4 zile</p>
+                </article>
+
+
+                <article class="card">
+                    <h3>Viena</h3>
+                    <p><strong>Țara:</strong> Austria</p>
+                    <p>
+                        Viena este renumită pentru palatele imperiale,
+                        muzica clasică și arhitectura elegantă.
+                    </p>
+                    <p><strong>Durată recomandată:</strong> 3 zile</p>
+                </article>
+
+
+                <article class="card">
+                    <h3>Praga</h3>
+                    <p><strong>Țara:</strong> Cehia</p>
+                    <p>
+                        Praga este cunoscută pentru centrul său medieval,
+                        Podul Carol și Castelul din Praga.
+                    </p>
+                    <p><strong>Durată recomandată:</strong> 3 zile</p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PLANIFICA -->
+
+        <section id="planifica">
+
+            <h2>Planifică excursia</h2>
+
+            <form>
+
+                <label for="name">Nume</label>
+                <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Introdu numele"
+                >
+
+
+                <label for="destination">Destinație</label>
+
+                <select id="destination" name="destination">
+
+                    <option value="">Alege...</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Lisabona">Lisabona</option>
+                    <option value="Roma">Roma</option>
+                    <option value="Viena">Viena</option>
+                    <option value="Praga">Praga</option>
+
+                </select>
+
+
+                <label for="days">Număr de zile</label>
+
+                <input
+                    id="days"
+                    name="days"
+                    type="number"
+                    min="1"
+                >
+
+
+                <button type="submit">
+                    Planifică excursia
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- RECOMANDARI -->
+
+        <section id="recomandari">
+
+            <h2>Recomandări</h2>
+
+            <ul>
+                <li>Rezervă cazarea din timp, mai ales în sezonul turistic.</li>
+                <li>Verifică programul obiectivelor înainte de vizită.</li>
+                <li>Folosește transportul public pentru a explora orașul.</li>
+            </ul>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        Petriia Raluca, 2026
+    </footer>
+
+</body>
+
+</html>
